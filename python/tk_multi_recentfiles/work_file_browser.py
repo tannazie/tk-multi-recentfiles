@@ -22,6 +22,9 @@ browser_widget = tank.platform.import_framework("tk-framework-widget", "browser_
 
 class WorkFileBrowserWidget(browser_widget.BrowserWidget):
 
+
+    # this is a comment just to dirty the file for github learning purposes.
+
     history_item_action = QtCore.Signal(str)
     
     def __init__(self, parent=None):
